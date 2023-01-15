@@ -1,0 +1,80 @@
+
+
+Spring Tiles
+- 레이아웃 지원
+- 이전 > 반복되는 파트 > 조각 페이지 > <%@ include %>
+
+설정
+1. pom.xml
+	- 자바 11
+	- 스프링 5.0.7
+
+2. 파일 생성
+	- com.test.nontiles 	> "MainController.java"
+	- views > "inc" 			> "mainmenu.jsp" 				(회원+관리자 공통 페이지)
+									> "submenu_member.jsp" 	(회원)
+									> "submenu_admin.jsp" 		(관리자)
+									> "footer.jsp"
+	- views > "member" 	> "info.jsp"							(회원 정보)
+									> "point.jsp"							(포인트 내역)
+	- views > "admin"		> "option.jsp"						(설정)
+									> "log.jsp"							(로그)
+	- webapp > resources > "css" > "main.css"
+
+
+3. pom.xml
+	- 의존성 추가
+
+4. servlet-context.xml
+
+
+5. Tiles
+	- views > "layout" > "test.jsp"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
